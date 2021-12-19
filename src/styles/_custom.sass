@@ -41,6 +41,10 @@
   background-image: url("../assets/curso/tema1-background.svg")
   background-repeat: no-repeat
   background-size: cover
+.tema2-background
+  background-image: url("../assets/curso/tema2-background.svg")
+  background-repeat: no-repeat
+  background-size: cover
 
 .title-nuevo
   color: #78B632
@@ -59,3 +63,37 @@
 
 .tarjeta.color-primario--claro
   background-color: mix(#ffffff, $color-primario,  80%)
+
+.slyder-e
+  background-image: url("../assets/curso/tema3-slyder-background.png")
+  background-size: cover
+.slyder__btn
+  background-color: white
+
+.tabla-especial
+  table
+    thead
+      tr
+        th
+          font-size: 1.2em
+        &.color-acento-contenido
+          th
+            background-color: #C6DAA4
+            border-color: white
+        &.color-acento-botones
+          th
+            background-color: mix(#fff, $color-acento-botones, 60%)
+            border-color: white
+    tbody
+      tr
+        &.color-acento-contenido
+          td
+            background-color: #F0F6E2
+            border-color: white
+        &.color-acento-botones
+          td
+            background-color: mix(#fff, $color-acento-botones, 80%)
+            border-color: white
+
+.table--new-row
+  border-bottom: 4px solid
