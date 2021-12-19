@@ -15,7 +15,7 @@
 <script>
 import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
-  name: 'Tema3',
+  name: 'Tema5',
   components: {
     Muestras, // borrar una vez el componente "Muestras" no se necesite
   },
