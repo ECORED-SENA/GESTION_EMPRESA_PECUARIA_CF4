@@ -45,6 +45,10 @@
   background-image: url("../assets/curso/tema2-background.svg")
   background-repeat: no-repeat
   background-size: cover
+.tema3-background
+  background-image: url("../assets/curso/tema3-background.png")
+  background-repeat: no-repeat
+  background-size: cover
 
 .title-nuevo
   color: #78B632
@@ -97,3 +101,16 @@
 
 .table--new-row
   border-bottom: 4px solid
+
+.contenedor--texto
+  position: relative
+  *
+    position: relative
+  &::before
+    position: absolute
+    content: ''
+    top: 15%
+    bottom: 15%
+    left: 0
+    right: 30%
+    background-color: #EAF1F4
