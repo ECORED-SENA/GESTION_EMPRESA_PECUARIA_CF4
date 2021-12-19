@@ -6,10 +6,18 @@
   &::before
     position: absolute
     content: ''
-    top: 0
-    right: 0
-    left: 60%
-    bottom: 60%
+  &.position-top-right
+    &::before
+      top: 0
+      right: 0
+      left: 60%
+      bottom: 60%
+  &.position-bottom-left
+    &::before
+      top: 60%
+      right: 60%
+      left: 0
+      bottom: 0
   &.color-primario
     &::before
       background-color: $color-primario
@@ -33,3 +41,21 @@
   background-image: url("../assets/curso/tema1-background.svg")
   background-repeat: no-repeat
   background-size: cover
+
+.title-nuevo
+  color: #78B632
+  max-width: auto
+  font-size: 1.25em
+  font-weight: 900
+  > span
+    line-height: 1.8
+    border-bottom: 1px solid #78B632
+
+.contenedor-especial
+  border-radius: 40px
+  background-image: url("../assets/curso/tema2-img9.svg")
+  background-size: 100% 100%
+  background-repeat: no-repeat
+
+.tarjeta.color-primario--claro
+  background-color: mix(#ffffff, $color-primario,  80%)

@@ -15,7 +15,7 @@
           br
           | Dentro de las características más reconocidas del sector pecuario se pueden citar las siguientes:
       .col-lg-5
-        .contenedor-imagen.color-primario
+        .contenedor-imagen.color-primario.position-top-right
           figure
             img(src="@/assets/curso/tema1-img1.jpg")
 
@@ -70,12 +70,8 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
   data: () => ({
     // variables de vue
   }),
