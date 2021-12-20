@@ -517,22 +517,14 @@
                     br
                     br
                     | En un tiempo estimado de 24 horas, recibirá a vuelta de correo el usuario y contraseña para poder ingresar a Sigma en línea y continuar con el trámite para expedir la guía de movilización.
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
 
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 import TabsSpecial from '../components/TabEspecial'
 export default {
   name: 'Tema6',
   components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
     TabsSpecial,
   },
   data: () => ({
