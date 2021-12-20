@@ -119,7 +119,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Para profundizar más sobre estos conocimientos, se recomienda revisar en el material complementario el video “Anexo 1. Planificación de la Producción Pecuaria” y la cartilla Programación anual de actividades de la finca o a través del siguiente enlace:
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=sfC5IwoNatY" target="_blank")
                     span Ver video
                     i.fas.fa-file-download
 
@@ -150,7 +150,7 @@
     Separador(style="visibility: hidden;")
 
     #t_5_4.titulo-segundo.color-secundario
-      h2 5.4  Métodos y especificaciones.
+      h2 5.4  Labores Pecuarias.
 
     p.mb-5 Las labores pecuarias se refieren a esas actividades relacionadas con la fase económica de la ganadería. Son una derivación principal de las labores agropecuarias y forman parte integral del sector primario de la economía. Estas labores cumplen un papel de vital importancia en las comunidades rurales ayudándoles a mejorar la alimentación, ingresos, productividad, transporte, trabajo, entre otras, lo cual se traduce en bienestar.
       br
