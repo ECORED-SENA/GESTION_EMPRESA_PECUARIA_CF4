@@ -50,7 +50,6 @@
 
         Separador
 
-
     #t_6_1.titulo-segundo.color-secundario
       h2 6.1  Prevención de enfermedades de control oficial
 
