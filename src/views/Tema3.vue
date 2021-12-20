@@ -72,7 +72,7 @@
             figure
               img(src="@/assets/curso/tema3-img10.svg")
 
-    Separator(style="visibility: hidden;")
+    Separador(style="visibility: hidden;")
 
     #t_3_2.titulo-segundo.color-secundario
       h2 3.2  Implementación

@@ -100,9 +100,9 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small.mb-0 Para reforzar el tema se recomienda ver el material audiovisual Sistemas de producción animal que se encuentra disponible en el material complementario o a través del siguiente enlace:
+                  p.mb-0 Para reforzar el tema se recomienda ver el material audiovisual Sistemas de producción animal que se encuentra disponible en el material complementario o a través del siguiente enlace:
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                     span Ver video
                     i.fas.fa-file-download
 
