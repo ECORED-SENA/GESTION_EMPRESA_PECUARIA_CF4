@@ -223,7 +223,7 @@
     .row.justify-content-center
       .col-lg-9
         p.mb-5 Alerta temprana es la forma de llamar a las acciones que deben ser tenidas en cuenta con prioridad para el beneficio de las diferentes fincas evitando la propagación de alguna enfermedad o virus; por ello, a continuación, se comparte la imagen del ICA con estas alertas y se recomienda contactar de inmediato al Instituto para reportar la urgencia en caso de evidenciarla:
-        figure
+        figure.image-click(@click="openImage(obtenerLink('/downloads/sistema-de-alerta-temprana.jpg'))")
           img(src="@/assets/curso/tema6-img6.svg")
 
     Separador.mb-0
@@ -384,12 +384,52 @@
     #t_6_5.titulo-segundo.color-secundario
       h2 6.5  Tiempo de retiro
 
-    .box-soft-green.py-2.px-5
+    .cajon.color-acento-contenido.p-4.mb-4
       p.mb-0 Este tiempo que debe reposar aislado un animal desde la hora de aplicación del medicamento veterinario hasta la eliminación del medicamento del cuerpo su organismo logrando disminuir como mínimo hasta que la concentración del producto médico no infrinja el Límite Máximo de Residuos (LMR) en los tejidos del animal, esto tiene el fin de evitar que esa carne o esos productos dependientes de los animales no sean dañosos para la salud de los seres humanos o los animales con los que el animal intervenido tenga contacto. Este tiempo debe ser respetado tal como se enuncia a continuación:
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    PasosA.color-primario.mb-5(tipo="n")
+      .row
+        .col-md-7.mb-4.mb-md-0
+          p.mb-0 La mayoría de los medicamentos veterinarios tienen establecidos los tiempos de retiro en las etiquetas de los productos. Como se mencionó anteriormente, el tiempo de retiro no garantiza que no existan residuos de medicamentos en los productos destinados para el consumo humano, sino que los niveles de este medicamento se encuentran por debajo del LMR.
+        .col-md-4
+          figure
+            img(src='@/assets/curso/tema6-img37.png')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          figure
+            img(src='@/assets/curso/tema6-img38.png')
+        .col-md-7
+          p.mb-4 Cabe resaltar que la FAO en su Codex Alimentarius CX/MRL 2-2018, establece los límites máximos de residuos y las recomendaciones sobre la gestión de riesgos para residuos de medicamentos veterinarios en los alimentos. De igual manera, en Colombia existe la Resolución 1382 de 2013, por la cual se establecen los límites máximos para residuos de medicamentos veterinarios en los alimentos de origen animal, destinados al consumo humano.
+          .row
+            .col-lg-6.col-md-8.col-12
+              a.anexo.mb-4(:href="obtenerLink('/downloads/global-goals.jpg')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/curso/jpg-link.svg")
+                .anexo__texto
+                  p <strong>Anexo</strong>. The global goals.
+
+
+      .row
+        .col-md-7.mb-4.mb-md-0
+          p.mb-0 Los medicamentos se deben utilizar de forma responsable, ya que existen algunos productores que tienen la creencia que siempre se debe aplicar mucho más de la dosis recomendada en la etiqueta y, por consiguiente, el tiempo de retiro será diferente, ya que este deberá ser ajustado a la cantidad de medicamento que se administró al animal.
+        .col-md-4
+          figure
+            img(src='@/assets/curso/tema6-img39.png')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          figure
+            img(src='@/assets/curso/tema6-img40.png')
+        .col-md-7
+          p.mb-0 En el caso de la carne, el tiempo de retiro debe ser el transcurrido entre la última aplicación de un medicamento veterinario a un animal y el momento de sacrificio de este para consumo humano.
+
+      .row
+        .col-md-7.mb-4.mb-md-0
+          p.mb-0 En cuanto a la leche, los huevos y la miel el tiempo de retiro hace referencia al periodo durante el cual debe descartarse la leche, los huevos o la miel, esto para que los residuos de medicamento y/o sus metabolitos, alcancen niveles de inocuidad aceptados internacionalmente.
+        .col-md-4
+          figure
+            img(src='@/assets/curso/tema6-img41.png')
 
     Separador
 
@@ -536,6 +576,11 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    openImage(link) {
+      window.open(link, '_blank')
+    },
   },
 }
 </script>
