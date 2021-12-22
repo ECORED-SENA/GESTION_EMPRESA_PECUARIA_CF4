@@ -123,7 +123,7 @@
                     span Ver video
                     i.fas.fa-file-download
 
-    h3.titulo-tercero  Métodos y especificaciones.
+    h3.titulo-tercero  Métodos y especificaciones
 
     .row.justify-content-center.mb-5
       .col-lg-10
