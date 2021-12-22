@@ -24,7 +24,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4
-          p.mb-0 Las buenas prácticas de alimentación animal “son todas las acciones encaminadas en el proceso de elaboración de alimentos que brinden un estándar de calidad e inocuidad según las diferentes normas y lineamientos” FAO (2004). Enfocadas en brindar unos piensos o alimentos de excelente calidad para los animales que son destinados al consumo humano abarcando toda la cadena alimenticia
+          p.mb-0 Las buenas prácticas de alimentación animal “son todas las acciones encaminadas en el proceso de elaboración de alimentos que brinden un estándar de calidad e inocuidad según las diferentes normas y lineamientos” FAO (2004). Enfocadas en brindar unos piensos o alimentos de excelente calidad para los animales que son destinados al consumo humano abarcando toda la cadena alimenticia.
         p.mb-0 Así, el ICA como ente regulador da unas especificaciones y lineamientos, los cuales son de vital importancia reconocer e implementar para asegurar las buenas prácticas de alimentación animal que cumplan las siguientes características:
       .col-lg-4
         figure
@@ -127,7 +127,8 @@
                   img(src='@/assets/curso/tema7-img8.svg', alt='Texto que describa la imagen')
 
             p.mb-0
-              strong ● Medicamentos veterinarios en alimentos medicados.
+              strong ● Medicamentos veterinarios en alimentos medicados
+              br
               |    Para la realización de alimentos medicados se deben emplear unas condiciones especiales para evitar la contaminación cruzada con otros alimentos que no requieren la medicación.
 
           .col-md.tarjeta.box-soft-green.p-5
@@ -138,6 +139,7 @@
 
             p.mb-0
               strong ● Sustancias no deseables
+              br
               |    Deberán identificarse, controlarse y reducirse al mínimo la presencia de estos en los alimentos balanceados para animales donde debemos tener en cuenta la eliminación de contaminantes industriales y ambientales, contaminantes de tipo orgánicos los diferentes agentes patógenos y mico toxinas.
 
         p.mb-5 Es importante la evaluación de los diferentes riesgos que indican cada sustancia y la contaminación cruzada por el uso de medicamentos en raciones animales que no requieran del mismo tanto para la salud del animal como de los consumidores finales de los productos animales es importante reconocer los límites máximos admitidos para cada sustancia.
@@ -157,6 +159,8 @@
           .col-lg-10
             figure
               img(src="@/assets/curso/tema7-img11.svg")
+
+        p.mb-5 Las buenas prácticas se relacionan en los siguientes tres elementos:
 
         .row.mb-5
           .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -238,7 +242,7 @@
               | Los alimentos dispuestos en bultos deben ser colocados sobre estibas y realizar una separación de las paredes para evitar la humedad y asegurar las condiciones de inocuidad.
         p.mb-0.text-center Deberá realizarse la inspección de las condiciones de limpieza para asegurar la inocuidad de los alimentos allí almacenados.
 
-    p.mb-5.color-texto-verde ● Uso de suplementos para alimentación animal.
+    p.mb-5.color-texto-verde ● Uso de suplementos para alimentación animal
 
     p.mb-5 La deficiencia de nutrientes en las diferentes materias primas o los elevados costos para la adquisición de materias primas de calidad, genera en el sistema productivo un retraso, ya que en el animal se ve afectado el desarrollo y expresión genética del animal, ya sea en la ganancia de peso, crecimiento, madurez sexual, entre otros aspectos, que para la producción pecuaria son de vital importancia acortar estos periodos de tiempo para aumentar la producción.
 
@@ -271,7 +275,7 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema7-img21.svg' alt='AvatarTop')
 
-    p.mb-5.color-texto-verde ● Manejo de praderas y forrajes.
+    p.mb-5.color-texto-verde ● Manejo de praderas y forrajes
 
     p.mb-5 El manejo de praderas y forrajes es una de las principales problemáticas en la producción ganadera bovina, ya que el mal manejo de estas puede generar una compactación del suelo por sobrepastoreo de los animales; por ende, la importancia de conocer y manejar periodos de pastoreo adecuados con sistema de rotación de potreros y periodos de descanso donde brindaran un mejor manejo de las praderas para ofrecer al animal las mejores condiciones nutricionales que la pradera puede ofertar.
       br
@@ -330,7 +334,7 @@
 
   .container.tarjeta.tarjeta--gris-especial.p-4.p-md-5.py-0.py-md-0.no-border.top-left.top-right.bottom-left.bottom-right
 
-    p.mb-5.color-texto-verde ● Alimento balanceado.
+    p.mb-5.color-texto-verde ● Alimento balanceado
 
     p.mb-5 La composición de los alimentos balanceados generalmente tiene una determinada concentración de ingredientes o materias primas, para así lograr satisfacer los requerimientos energéticos, proteicos, minerales entre otros. Es importante conocer las características nutricionales de un alimento para así identificar las interacciones que dicho alimento generará en el animal. La gran mayoría de materias primas provienen de los vegetales aportando diferentes valores nutricionales a un costo relativamente más económico. La ración se define como una provisión diaria de alimento o forraje la cual es instaurada por una dieta para así cumplir las necesidades del animal según su estado de desarrollo. Dentro de los nutrientes que están en las dietas de los animales se tienen:
 
@@ -380,7 +384,7 @@
 
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.no-border.top-left.top-right
 
-    p.mb-5.color-texto-verde ● Disponibilidad de agua.
+    p.mb-5.color-texto-verde ● Disponibilidad de agua
 
     p.mb-5 El consumo de agua en las especies pecuarias es un recurso fundamental y esencial para su funcionamiento vital, ya que es necesaria para su regulación osmocelular, su consumo es dado en las diferentes especies por las necesidades para mantener el balance corporal y reponer los líquidos perdidos en las heces y orina, pérdidas evaporativas, más el agua retenida en líquidos de preñez y producción de leche. Es importante tener en cuenta las condiciones en las que se ofrece el agua, que sean condiciones óptimas y de buena calidad para el animal, y así prevenir enfermedades digestivas o patologías causadas por el agua contaminada.
 

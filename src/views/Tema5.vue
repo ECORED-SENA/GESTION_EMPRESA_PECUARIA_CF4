@@ -94,7 +94,7 @@
 
           .row
             .col-md-8.mb-4.mb-md-0
-              h3 Analizar el cronograma.
+              h3 Analizar el cronograma
               p.mb-0 Para resaltar y diferenciar las tareas o acciones asignadas a los perfiles individuales específicos o equipos responsables; además, se traza una línea de puntos rojos para mostrar la ruta crítica del proceso productivo, destacando las principales actividades a ejecutarse para obtener el producto final.
             .col-md-3
               figure
@@ -105,7 +105,7 @@
               figure
                 img(src='@/assets/curso/tema5-img9.svg')
             .col-md-8
-              h3 Supervisar el proceso.
+              h3 Supervisar el proceso
               p.mb-0 El seguimiento de la ejecución suele comparar los plazos establecidos en el diagrama de Gantt con los tiempos alcanzados en la ejecución. Es posible que la gráfica requiera ajustes si existen situaciones no contempladas que retrasen algunas tareas, puesto que la secuencialidad demanda la terminación de ciertas labores para continuar con otras. Además, si a juicio del supervisor se hace necesaria la inclusión o eliminación de algunas actividades proyectadas, este tipo de cambios también trae repercusiones directas sobre las estimaciones iniciales.
 
     .row.justify-content-center
@@ -123,8 +123,7 @@
                     span Ver video
                     i.fas.fa-file-download
 
-    #t_5_3.titulo-segundo.color-secundario
-      h2 5.3  Métodos y especificaciones.
+    h3.titulo-tercero  Métodos y especificaciones.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -149,8 +148,7 @@
 
     Separador(style="visibility: hidden;")
 
-    #t_5_4.titulo-segundo.color-secundario
-      h2 5.4  Labores Pecuarias.
+    h3.titulo-tercero Labores Pecuarias
 
     p.mb-5 Las labores pecuarias se refieren a esas actividades relacionadas con la fase económica de la ganadería. Son una derivación principal de las labores agropecuarias y forman parte integral del sector primario de la economía. Estas labores cumplen un papel de vital importancia en las comunidades rurales ayudándoles a mejorar la alimentación, ingresos, productividad, transporte, trabajo, entre otras, lo cual se traduce en bienestar.
       br
@@ -176,7 +174,7 @@
       .col-lg-8
         div
           h3.titulo-tercero Producción agrícola
-          p.mb-0 La utilización del ganado y sus subproductos como las heces, es importante en la producción agrícola, mejorando la estructura y fertilidad del suelo, el ganado también se usa como transporte, llevando insumos, productos agrícolas y/o personas. Destacándose, además, que estas labores
+          p.mb-0 La utilización del ganado y sus subproductos como las heces, es importante en la producción agrícola, mejorando la estructura y fertilidad del suelo, el ganado también se usa como transporte, llevando insumos, productos agrícolas y/o personas. Destacándose, además, que estas labores contribuyen al medio ambiente.
     .row.justify-content-center.align-items-center.contenedor-imagen-5
       .col-lg-4
         figure

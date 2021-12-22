@@ -109,18 +109,6 @@ export default {
             titulo: 'Programación de actividades pecuarias',
             hash: 't_5_2',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.3',
-            titulo: 'Métodos y especificaciones',
-            hash: 't_5_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.4',
-            titulo: 'Labores pecuarias',
-            hash: 't_5_4',
-          },
         ],
       },
       {
@@ -438,11 +426,25 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: [
-          'Oscar Ivan Uribe Ortiz',
-          'Carlos Julián Ramírez Benítez',
-          'Eulises Orduz Amezquita',
-        ],
+        nombre: 'María Natalia Maldonado Delgado',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Oscar Ivan Uribe Ortiz',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carlos Julián Ramírez Benítez',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Eulises Orduz Amezquita',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -502,12 +504,12 @@ export default {
       },
       {
         nombre: 'Andrés Mauricio Santaella Ochoa',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Soporte Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

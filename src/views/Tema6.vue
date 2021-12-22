@@ -216,7 +216,7 @@
           | Todos los datos de contacto los puede encontrar en:
         .row.justify-content-center
           .col-lg-10
-            figure
+            figure.image-click(@click="openImage('https://www.ica.gov.co')")
               img(src="@/assets/curso/tema6-img12.svg")
 
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.no-border.top-left.top-right.bottom-left.bottom-right
@@ -293,40 +293,45 @@
         SlyderF(columnas="col-12").mb-5
           .tarjeta.tarjeta--naranja-2.p-5
             p.mb-0
-              strong Oftálmica:
-              |   este método de aplicación es muy utilizada en aves y consiste en la aplicación directa del medicamento sobre el ojo del animal, generalmente la presentación del medicamento viene en gotas y se utiliza mucho en vacunaciones e infecciones oculares. Se aplica el medicamento directamente sobre el ojo. Este método es de manejo individual de los animales y en las aves se utiliza principalmente para realizar vacunaciones contra enfermedades como Newcastle, Gumboro, bronquitis, entre otras.
+              strong Intraalar:
+              |   se realiza punzando la membrana del ala. Específicamente, en medio del triángulo formado por el pliegue que aparece al abrir el ala. Este método es el utilizado para realizar vacunaciones contra Viruela Aviar y se realiza con aplicador de doble estilete que previamente debe ser introducido en el frasco que contiene la vacuna.
           .tarjeta.tarjeta--naranja-2.p-5
             p.mb-0
-              strong Intravaginal e Intrauterina:
-              |   con la ayuda de un catéter, se aplica el medicamento directamente por la vagina del animal o en el caso de ser intrauterina, se continúa introduciendo el catéter pasando por el cuello uterino hasta llegar al útero y poder depositar el medicamento allí. Esta técnica se utiliza principalmente en casos de metritis o infecciones vaginales.
-          .tarjeta.tarjeta--naranja-2.p-5
-            p.mb-0
-              strong Tópica:
-              |   el medicamento se aplica sobre la piel del animal y su presentación puede ser en crema, líquido, aerosol, polvo. Esta vía de aplicación se utiliza principalmente en heridas.
-          .tarjeta.tarjeta--naranja-2.p-5
-            p.mb-0
-              strong Rectal:
-              |   se aplica el medicamento por el recto y se utilizan en formas de supositorios o lavados.
-          .tarjeta.tarjeta--naranja-2.p-5
-            p.mb-0
-              strong Oral:
-              |   el medicamento se aplica por la boca o pico, según sea el caso, y se emplean medicamentos en presentaciones de pastillas, polvos, jarabes, suspensiones. En las aves es la principal vía de administración.
-          .tarjeta.tarjeta--naranja-2.p-5
-            p.mb-0
-              strong Ótica:
-              |   el medicamento es aplicado en el oído y suele utilizarse mayormente en infecciones de oído medio o externo.
-          .tarjeta.tarjeta--naranja-2.p-5
-            p.mb-0
-              strong Intranasal:
-              |   el medicamento se aplica por los orificios nasales. Las formas más utilizadas son en gotas, nebulizaciones o también se puede emplear el uso de una jeringa para medicamentos líquidos y se utilizan principalmente en especies pecuarias que presenten problemas respiratorios.
+              strong Intramamaria:
+              |   con la ayuda de un catéter de pezón, se aplica el medicamento en los pezones del animal. Esta técnica es muy utilizada para tratar casos de mastitis o secados de vacas productoras de leche.
           .tarjeta.tarjeta--naranja-2.p-5
             p.mb-0
               strong In ovo:
               |   se inyecta a los embriones en su último estado de incubación.
           .tarjeta.tarjeta--naranja-2.p-5
             p.mb-0
-              strong Intramamaria:
-              |   con la ayuda de un catéter de pezón, se aplica el medicamento en los pezones del animal. Esta técnica es muy utilizada para tratar casos de mastitis o secados de vacas productoras de leche.
+              strong Intranasal:
+              |   el medicamento se aplica por los orificios nasales. Las formas más utilizadas son en gotas, nebulizaciones o también se puede emplear el uso de una jeringa para medicamentos líquidos y se utilizan principalmente en especies pecuarias que presenten problemas respiratorios.
+          .tarjeta.tarjeta--naranja-2.p-5
+            p.mb-0
+              strong Oftálmica:
+              |   este método de aplicación es muy utilizada en aves y consiste en la aplicación directa del medicamento sobre el ojo del animal, generalmente la presentación del medicamento viene en gotas y se utiliza mucho en vacunaciones e infecciones oculares. Se aplica el medicamento directamente sobre el ojo. Este método es de manejo individual de los animales y en las aves se utiliza principalmente para realizar vacunaciones contra enfermedades como Newcastle, Gumboro, bronquitis, entre otras.
+          .tarjeta.tarjeta--naranja-2.p-5
+            p.mb-0
+              strong Ótica:
+              |   el medicamento es aplicado en el oído y suele utilizarse mayormente en infecciones de oído medio o externo.
+          .tarjeta.tarjeta--naranja-2.p-5
+            p.mb-0
+              strong Oral:
+              |   el medicamento se aplica por la boca o pico, según sea el caso, y se emplean medicamentos en presentaciones de pastillas, polvos, jarabes, suspensiones. En las aves es la principal vía de administración.
+          .tarjeta.tarjeta--naranja-2.p-5
+            p.mb-0
+              strong Rectal:
+              |   se aplica el medicamento por el recto y se utilizan en formas de supositorios o lavados.
+          .tarjeta.tarjeta--naranja-2.p-5
+            p.mb-0
+              strong Tópica:
+              |   el medicamento se aplica sobre la piel del animal y su presentación puede ser en crema, líquido, aerosol, polvo. Esta vía de aplicación se utiliza principalmente en heridas.
+          .tarjeta.tarjeta--naranja-2.p-5
+            p.mb-0
+              strong Intravaginal e Intrauterina:
+              |   con la ayuda de un catéter, se aplica el medicamento directamente por la vagina del animal o en el caso de ser intrauterina, se continúa introduciendo el catéter pasando por el cuello uterino hasta llegar al útero y poder depositar el medicamento allí. Esta técnica se utiliza principalmente en casos de metritis o infecciones vaginales.
+
 
         p.mb-5 La siguiente vía es la <strong>parenteral</strong> y se compone de varios elementos que se deben tener en cuenta. Esta vía implica la ruptura de las barreras del organismo, la piel y las mucosas para depositar las sustancias en tejidos o cavidades internas del organismo inyectando el medicamento a través de una punción utilizando aguja y jeringa desechables. A continuación, se explican varias vías de aplicación de medicamentos parenteral:
 
@@ -519,6 +524,8 @@
               .col-9.offset-1
                 p.mb-0 Que las GSMI expedidas se encuentren vigentes dentro del tiempo autorizado para la movilización de los animales.
 
+        p.mb-5 La expedición dela GSMI se puede expedir de dos formas:
+
         .tabla-a.color-acento-contenido.table-especial-cuerpo.mb-5
           table
             thead
@@ -546,7 +553,7 @@
                     | Paso 6: Firmar recibo de satisfacción de la GSMI.
 
                 td
-                  p.mb-0.p-4 Paso 1: Ingresar al enlace <a href="https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx">https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx</a> para descargar el acta de confidencialidad de usuarios y obtener información adicional.
+                  p.mb-0.p-4 Paso 1: Ingresar al enlace <a href="https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx" target='_blank'>https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx</a> para descargar el acta de confidencialidad de usuarios y obtener información adicional.
                     br
                     br
                     | Paso 2: Diligenciar el acta de confidencialidad.
