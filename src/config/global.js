@@ -403,7 +403,7 @@ export default {
       },
       {
         nombre: 'Lady Johanna Cruz Sarmiento',
-        cargo: 'Contratista Diseño Curricular',
+        cargo: 'Diseñadora curricular',
         centro: 'Regional Tolima  Centro Agropecuario La Granja',
       },
       {
